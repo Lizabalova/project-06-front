@@ -1,0 +1,33 @@
+.btn {
+  padding: 10px 30px;
+  width: 178px;
+  height: 44px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(64, 123, 255, 0.34);
+  background-color: #407bff;
+
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.33333;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 14px 0 rgba(64, 123, 255, 0.54);
+}
+
+.btn:active {
+  box-shadow: none;
+}
+
+@media screen and (max-width: 320px) {
+  .btn {
+    padding: 8px 30px;
+    height: 36px;
+    width: 256px;
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
